@@ -1,0 +1,8 @@
+// tag::main[]
+
+== Section 1
+
+include::subsection1.1.asciidoc[tags=main]
+include::subsection1.2.asciidoc[tags=main]
+
+// end::main[]

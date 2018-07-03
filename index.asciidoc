@@ -1,0 +1,9 @@
+= asciidoc-test
+Jonas Konrad
+:Author: Jonas Konrad
+:Email: <blackhole@example.com>
+:Date: 2018
+:toc: left
+
+include::section1.asciidoc[tags=main]
+include::section2.asciidoc[tags=main]
