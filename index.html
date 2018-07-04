@@ -480,6 +480,27 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <div class="paragraph">
 <p>This is a citation <a href="#bibliography-default-nagra2009surreptitious">[1]</a>.</p>
 </div>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="stem-7784c7b1c15e7f84b3171c652c855322.svg" alt="$$|\Pr[\mathcal{D}^{F_k(\cdot)} = 1] - \Pr[\mathcal{D}^{f(\cdot)} = 1]|$$">
+</div>
+</div>
+<div class="paragraph">
+<p>Broken because of newlines:</p>
+</div>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="stem-8aff084b85d5dde70a720916dd0d3251.svg" alt="$$|\Pr[\mathcal{D}^{F_k(\cdot)} = 1] - \Pr[\mathcal{D}^{f(\cdot)} = 1]|
+\\
+= |(\frac{1}{t}\sum_{i=0}^{t} \Pr[\mathcal{D}^{F_k(\cdot)} = 1|t=i]) - (\frac{1}{t}\sum_{i=0}^{t} \Pr[\mathcal{D}^{f(\cdot)} = 1|t=i])|
+\\
+= \frac{1}{t}|\sum_{i=0}^{t} \Pr[\mathcal{D}^{F_k(\cdot)} = 1|t=i] - \Pr[\mathcal{D}^{f(\cdot)} = 1|t=i]|
+\\
+= \frac{1}{t}|\sum_{i=0}^{t} \Pr[\mathcal{D'}^{F_{k_1}(\cdot), &#8230;&#8203;, F_{k_{i-1} }(\cdot), F_k(\cdot), r_{k+1}(\cdot), &#8230;&#8203;, r_t(\cdot)} = 1] - \Pr[\mathcal{D'}^{F_{k_1}(\cdot), &#8230;&#8203;, F_{k_{i-1} }(\cdot), f(\cdot), r_{k+1}(\cdot), &#8230;&#8203;, r_t(\cdot)} = 1]|
+\\
+= \frac{1}{t}|\Pr[\mathcal{D'}^{F_{k_1}(\cdot), &#8230;&#8203;, F_{k_t}(\cdot)} = 1] - \Pr[\mathcal{D'}^{f_1(\cdot), &#8230;&#8203;, f_t(\cdot)} = 1]| \nleq \mathsf{negl}(n)$$">
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_subsection_1_2"><a class="anchor" href="#_subsection_1_2"></a>Subsection 1.2</h3>
@@ -631,8 +652,24 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-07-04 09:29:07 UTC
+Last updated 2018-07-04 12:01:17 UTC
 </div>
 </div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 </body>
 </html>
