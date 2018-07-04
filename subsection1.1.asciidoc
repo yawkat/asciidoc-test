@@ -13,4 +13,24 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 This is a citation cite:[nagra2009surreptitious].
 
+[stem]
+++++
+|\Pr[\mathcal{D}^{F_k(\cdot)} = 1] - \Pr[\mathcal{D}^{f(\cdot)} = 1]|
+++++
+
+Broken because of newlines:
+
+[stem]
+++++
+|\Pr[\mathcal{D}^{F_k(\cdot)} = 1] - \Pr[\mathcal{D}^{f(\cdot)} = 1]|
+\\
+= |(\frac{1}{t}\sum_{i=0}^{t} \Pr[\mathcal{D}^{F_k(\cdot)} = 1|t=i]) - (\frac{1}{t}\sum_{i=0}^{t} \Pr[\mathcal{D}^{f(\cdot)} = 1|t=i])|
+\\
+= \frac{1}{t}|\sum_{i=0}^{t} \Pr[\mathcal{D}^{F_k(\cdot)} = 1|t=i] - \Pr[\mathcal{D}^{f(\cdot)} = 1|t=i]|
+\\
+= \frac{1}{t}|\sum_{i=0}^{t} \Pr[\mathcal{D'}^{F_{k_1}(\cdot), ..., F_{k_{i-1} }(\cdot), F_k(\cdot), r_{k+1}(\cdot), ..., r_t(\cdot)} = 1] - \Pr[\mathcal{D'}^{F_{k_1}(\cdot), ..., F_{k_{i-1} }(\cdot), f(\cdot), r_{k+1}(\cdot), ..., r_t(\cdot)} = 1]|
+\\
+= \frac{1}{t}|\Pr[\mathcal{D'}^{F_{k_1}(\cdot), ..., F_{k_t}(\cdot)} = 1] - \Pr[\mathcal{D'}^{f_1(\cdot), ..., f_t(\cdot)} = 1]| \nleq \mathsf{negl}(n)
+++++
+
 // end::main[]

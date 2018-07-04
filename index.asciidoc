@@ -6,6 +6,9 @@ Jonas Konrad
 :toc: left
 :bibliography-database: bibliography.bib
 :bibliography-style: ieee
+:mathematical-format: svg
+:stem: latexmath
+:math:
 
 Built by https://ci.yawk.at/job/asciidoc-test/[Jenkins]. +
 https://ci.yawk.at/job/asciidoc-test/lastSuccessfulBuild/artifact/index.pdf[Generated PDF]
