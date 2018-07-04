@@ -5,5 +5,9 @@ Jonas Konrad
 :Date: 2018
 :toc: left
 
+Built by https://ci.yawk.at/job/asciidoc-test/[Jenkins]. +
+https://ci.yawk.at/job/asciidoc-test/lastSuccessfulBuild/artifact/index.pdf[Generated PDF]
+
 include::section1.asciidoc[tags=main]
+
 include::section2.asciidoc[tags=main]
