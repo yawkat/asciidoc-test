@@ -2,6 +2,11 @@
 
 == Section 2
 
+.A test image
+[#img-test]
+[caption="Figure 1: ",link=https://yawk.at]
+image::test.png[Test,300,200]
+
 abc
 
 // end::main[]

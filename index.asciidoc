@@ -4,6 +4,8 @@ Jonas Konrad
 :Email: <blackhole@example.com>
 :Date: 2018
 :toc: left
+:bibliography-database: bibliography.bib
+:bibliography-style: ieee
 
 Built by https://ci.yawk.at/job/asciidoc-test/[Jenkins]. +
 https://ci.yawk.at/job/asciidoc-test/lastSuccessfulBuild/artifact/index.pdf[Generated PDF]
@@ -11,3 +13,11 @@ https://ci.yawk.at/job/asciidoc-test/lastSuccessfulBuild/artifact/index.pdf[Gene
 include::section1.asciidoc[tags=main]
 
 include::section2.asciidoc[tags=main]
+
+Page break
+
+<<<
+
+== Bibliography
+
+bibliography::[]
