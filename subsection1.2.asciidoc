@@ -11,4 +11,49 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Text before table
+
+[cols=3*]
+|===
+|0.0
+|0.1
+|0.2
+|1.0
+|1.1
+|1.2
+|2.0
+|2.1
+|2.2
+|3.0
+|3.1
+|3.2
+|4.0
+|4.1
+|4.2
+|5.0
+|5.1
+|5.2
+|6.0
+|6.1
+|6.2
+|7.0
+|7.1
+|7.2
+|8.0
+|8.1
+|8.2
+|9.0
+|9.1
+|9.2
+|===
+
+Text after table
+
 // end::main[]
